@@ -1,0 +1,89 @@
+body{
+    background: -moz-linear-gradient(top, #2B180C 0%, #C2BDB9 100%);
+    background: -webkit-linear-gradient(top, #2B180C 0%, #C2BDB9 100%);
+    background: linear-gradient(to bottom, #2B180C 0%, #C2BDB9 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+*{
+    font-family: 'lato', sans-serif;
+    font-family: 'Open sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+form{
+    width: 600px;
+    border: none;
+    padding: 6rem;
+    background-color: #191970;  
+    border: none;
+    border-radius: 20px;
+    color: aliceblue;
+}
+h1{
+    display: block;
+    border: none;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+label{
+    color: aliceblue;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 300;
+}
+
+input{
+    display: block;
+    border: 2px solid rgb(0, 0, 0);
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+button{
+    float: right;
+    background-color: #00f1dc;
+    padding: .5rem;
+    color: white;
+    border: none;
+    width: 40%;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+a{
+    float: left;
+    margin-left: 10px;
+    padding: .5rem;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
+
+.error{
+    background-color: rgb(175, 74, 74);
+    color: black;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
