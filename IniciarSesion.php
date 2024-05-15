@@ -33,7 +33,7 @@
                 $_SESSION['Usuario'] = $row['Usuario'];
                 $_SESSION['Nombre_Completo'] = $row['Nombre_Completo'];
                 $_SESSION['Id'] = $row['Id'];
-                header("Location: Inicio.php");
+                header("Location: inicio.php");
                 exit();
             }else {
                 header("Location: registro.php?error=El usuario o la clave son incorrectas");
