@@ -13,7 +13,7 @@
 
 <body>
     <form action="IniciarSesion.php" method="POST">
-    <div><a href="index.html"><img class="logo" src="img/logoyyy.jpg" width="80" height="80"></a><h1>INICIAR SESION</h1></div>
+    <div><a href="index.html"><img class="logo" src="img/Logo ByVcarlos.png" width="100" height="100"></a><h1>INICIAR SESION</h1></div>
             
         <hr>
         <?php
